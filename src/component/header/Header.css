@@ -1,0 +1,13 @@
+.main-nav{
+    background-color: rgba(46, 55, 66, 0.459);
+}
+.main-nav::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -45%;
+    width: 50%;
+    height: 1px;
+    background-color: #8d8c8c;
+
+}

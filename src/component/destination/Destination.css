@@ -1,0 +1,127 @@
+.destination {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-image: url(../../assets/destination/background-destination-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.destination .title {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.destination .content-box {
+  width: 90%;
+  height: 60%;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.destination .content-box .img-box {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.destination .content-box .img-box img {
+  width: 350px;
+  height: 350px;
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
+.destination .content-box .right-box {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-start;
+  color: #fff;
+}
+.destination .content-box .right-box nav {
+  width: 40%;
+  height: 60px;
+}
+.destination .content-box .right-box nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.destination .content-box .right-box nav ul li {
+  list-style: none;
+  transition-duration: 0.5s;
+}
+.destination .content-box .right-box nav ul li :hover {
+  border-bottom: 1px solid white;
+}
+.destination .content-box .right-box nav ul li a {
+  font-size: 20px;
+  text-decoration: none;
+}
+.destination .content-box .right-box .info-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.destination .content-box .right-box .info-box h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.destination .content-box .right-box .info-box p {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.destination .content-box .right-box .details {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: baseline;
+  justify-content: first baseline;
+}
+.destination .content-box .right-box .details .distance, .destination .content-box .right-box .details travel {
+  width: 50%;
+  height: 100%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=Destination.css.map */
